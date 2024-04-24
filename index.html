@@ -3,181 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Motos</title>
-  <!-- Adicionando Materialize CSS -->
+  <title>MotoMarket</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <style>
-    /* Ajustar o tamanho das imagens nas cartas */
-    .card-image img {
-      height: 200px;
-      width: 100%;
-      object-fit: cover;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <img src="imgs/_ec041123-2dd8-45ef-861b-53ab5194a4f3-removebg-preview.png" alt="">
+  </header>
 
-  <div class="container">
-    <h3 class="center-align">Catálogo de Motos</h3>
-    
-    <div class="row">
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/start.jpg" alt="Moto 1">
-          </div>
-          <div class="card-content">
-            <span class="card-title">START 160</span>
-            <p>Ano de Fabricação: 2023<br>Valor: R$ 10.000,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/xre.jpg" alt="Moto 2">
-          </div>
-          <div class="card-content">
-            <span class="card-title">XRE 300</span>
-            <p>Ano de Fabricação: 2022<br>Valor: R$ 15.500,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/twister.jpg" alt="Moto 3">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Twister 300</span>
-            <p>Ano de Fabricação: 2024<br>Valor: R$ 12.800,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/tarcer.jpg" alt="Moto 4">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Tracer 900</span>
-            <p>Ano de Fabricação: 2023<br>Valor: R$ 20.000,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/xt.jpg" alt="Moto 5">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Xt 660</span>
-            <p>Ano de Fabricação: 2022<br>Valor: R$ 18.000,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/tiger.jpg" alt="Moto 6">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Tiger 660</span>
-            <p>Ano de Fabricação: 2024<br>Valor: R$ 21.500,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/bmw.jpg" alt="Moto 7">
-          </div>
-          <div class="card-content">
-            <span class="card-title">BMW 1200</span>
-            <p>Ano de Fabricação: 2023<br>Valor: R$ 35.000,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/hornet.jpg" alt="Moto 8">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Hornet 600</span>
-            <p>Ano de Fabricação: 2022<br>Valor: R$ 25.000,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="imgs/africa.jpg" alt="Moto 9">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Africa Twin</span>
-            <p>Ano de Fabricação: 2023<br>Valor: R$ 32.000,00</p>
-          </div>
-          <div class="card-action">
-            <a href="#" class="waves-effect waves-light btn">Detalhes</a>
-            <a href="#" class="waves-effect waves-light btn">Comprar</a>
-          </div>
-        </div>
-      </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <video id="video" autoplay loop muted>
+        <source src="imgs/CG 160 Start 2022.mp4" type="video/mp4">
+      </video>
+      <h2 class="parallax-text">START 160</h2>
     </div>
   </div>
 
-  <!-- Adicionando Materialize JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.card-action a');
-      var instances = M.Tooltip.init(elems);
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+      
+      // Reproduzir o vídeo automaticamente após o carregamento da página
+      var video = document.getElementById('video');
+      video.play();
     });
   </script>
 </body>
