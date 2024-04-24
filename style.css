@@ -1,0 +1,46 @@
+/* Estilos customizados para o catálogo de motos */
+
+/* Alinhar o título */
+h3 {
+  margin-top: 30px;
+}
+
+/* Ajustar o espaçamento entre as cartas */
+.card {
+  margin-bottom: 30px;
+}
+
+/* Ajustar o tamanho das imagens nas cartas */
+.card-image img {
+    height: 200px; /* Defina a altura desejada para todas as imagens */
+    width: 100%; /* Para garantir que a largura se ajuste automaticamente */
+    object-fit: cover; /* Para manter a proporção da imagem */
+}
+  
+
+/* Ajustar o espaçamento entre os elementos dentro da carta */
+.card-content,
+.card-action {
+  padding: 15px;
+}
+
+/* Alterar a cor do título da carta */
+.card-title {
+  color: #37474f; /* Cor azul padrão do Materialize */
+}
+
+/* Alterar a cor dos links da ação da carta */
+.card-action a {
+  color: #2196f3; /* Cor azul padrão do Materialize */
+  margin-right: 10px; /* Espaçamento entre os links */
+}
+
+/* Alterar a cor do link quando estiver em foco */
+.card-action a:focus {
+  color: #1565c0; /* Cor azul mais escura */
+}
+
+/* Alterar a cor do link quando estiver em hover */
+.card-action a:hover {
+  color: #0d47a1; /* Cor azul mais escura */
+}
