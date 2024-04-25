@@ -14,7 +14,6 @@ header img {
   height: auto; /* garante que a imagem não ultrapasse a altura do contêiner */
 }
 
-
 .parallax {
   position: absolute;
   top: 0;
@@ -27,7 +26,7 @@ header img {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 60vh; /* altura ajustada - 60% da altura da tela */
+  height: 70vh; /* altura ajustada - 60% da altura da tela */
 }
 
 .parallax-container .parallax video {
@@ -48,4 +47,71 @@ header img {
   text-align: center;
   font-size: 6rem;
   font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  height: 100%; /* altura ajustada */
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* sombra às seções (0 para eixo X (horizontal), 2 para eixo Y (verticalmente), 5 para desfoque da sombra, 0.1 de opacidade da cor preta */ 
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid rgb(160, 159, 159);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#pos-venda h2 {
+  font-size: 28px;
+}
+
+#pos-venda label {
+  font-size: 20px;
+}
+
+.carousel-item img {
+  width: 180%;
+  height: 100%;
+  object-fit: cover;
 }
